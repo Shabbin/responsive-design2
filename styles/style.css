@@ -2,6 +2,7 @@ body {
 
 
     font-family: 'Poppins', sans-serif;
+    background: #FFF;
 }
 
 .navigation {
@@ -14,6 +15,7 @@ body {
 .name {
     color: #3A3A3A;
     font-weight: 700;
+    margin-left: 24px;
 
 
 }
@@ -24,4 +26,8 @@ body {
     color: #3A3A3A;
     width: 1440px;
     height: 3306px;
+}
+
+.navi nav {
+    margin-right: 24px;
 }
