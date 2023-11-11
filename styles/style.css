@@ -3,6 +3,8 @@ body {
 
     font-family: 'Poppins', sans-serif;
     background: #FFF;
+    margin-left: 24px;
+    margin-right: 24px;
 }
 
 .navigation {
@@ -14,16 +16,12 @@ body {
 
 .title {
     color: #3A3A3A;
-
-    margin-left: 24px;
-
-
-
 }
 
 #small-title {
     font-size: 24px;
     font-weight: 700;
+    margin: 24px;
 }
 
 .title p {
@@ -39,6 +37,8 @@ body {
     height: 3306px;
     font-size: 16px;
     font-weight: 600;
+    margin-left: 24px;
+    margin-right: 24px;
 
 }
 
@@ -59,7 +59,8 @@ body {
 .Box1 {
     display: flex;
     margin-top: 90px;
-
+    margin-left: 24px;
+    margin-right: 24px;
 
 }
 
@@ -72,18 +73,19 @@ body {
 
 }
 
-
 .arrow-head {
 
     display: inline-flex;
     align-items: center;
     margin-left: 10px;
+    width: 24px;
+    height: 24px;
 }
 
 .title-image {
     width: 440px;
     height: 418px;
-    margin-right: 5px;
+    margin-left: 200px;
 }
 
 .divider {
@@ -192,5 +194,71 @@ body {
 
 .more {
     margin-top: 50px;
-    margin-left: 221px;
+    margin-left: 200px;
+}
+
+.featured-products {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+
+
+}
+
+.info {
+    color: #6C6C6C;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+
+}
+
+.info a {
+    background: #E02C6D;
+    color: #FFF;
+    text-decoration: none;
+    display: inline-flex;
+    padding: 10px 24px;
+
+}
+
+.info p {}
+
+#infos {
+    color: #0A0826;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+    float: left;
+}
+
+.featured-products .info {
+
+    margin-left: 90px;
+    padding: 40px 40px 40px;
+}
+
+.pictures {
+    width: 404px;
+    height: 270px;
+}
+
+footer {
+    color: white;
+    width: 1440px;
+    height: 239px;
+    background: #0A0826;
+    text-align: center;
+    padding: 24px 24px 24px;
+}
+
+#type-white1 {
+    font-family: Manrope;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    color: grey;
 }
