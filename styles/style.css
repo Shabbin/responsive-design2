@@ -72,6 +72,14 @@ body {
 
 }
 
+
+.arrow-head {
+
+    display: inline-flex;
+    align-items: center;
+    margin-left: 10px;
+}
+
 .title-image {
     width: 440px;
     height: 418px;
@@ -110,6 +118,9 @@ body {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     margin-top: 90px;
+    margin-left: 24px;
+    align-items: center;
+    background: #FFF;
 }
 
 
@@ -118,9 +129,6 @@ body {
     margin-top: 100px;
 }
 
-.box2 {
-    margin-left: 24px;
-}
 
 .collection1 {
     width: 300px;
@@ -172,4 +180,17 @@ body {
     font-family: Inter;
 
 
+}
+
+.more a {
+    text-decoration: none;
+    color: rgba(224, 44, 109, 0.87);
+    font-size: 16px;
+    font-weight: 700;
+
+}
+
+.more {
+    margin-top: 50px;
+    margin-left: 221px;
 }
