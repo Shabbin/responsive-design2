@@ -68,6 +68,7 @@ body {
     width: 582px;
     height: 133px;
     font-size: 52px;
+    font-weight: 800;
 
 }
 
@@ -80,16 +81,95 @@ body {
 .divider {
     width: 1110px;
     height: 1px;
-    border: 0.1px solid rgb(220, 220, 255);
+    border: 0.1px solid rgb(224, 224, 255);
+    margin-left: 45px;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+
+}
+
+
+
+.sponsors {
+
+    margin-top: 35px;
+
+}
+
+.divider2 {
+    width: 1110px;
+    height: 1px;
+    border: 0.1px solid rgb(224, 224, 255);
+    margin-top: 100px;
     margin-left: 45px;
 }
 
-.logos {
+.box2 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 90px;
+}
+
+
+#medium-title {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.box2 {
+    margin-left: 24px;
+}
+
+.collection1 {
+    width: 300px;
+    height: 256px;
+
+}
+
+.detail-fonts {
+    width: 329px;
+    height: 476px;
+    border-radius: 5px;
+    background: #FFF;
+}
+
+.intro-price {
+    font-family: Poppins;
+    font-size: 28px;
+
+    font-weight: 500;
+
+}
+
+#price {
+
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 400;
+
+}
+
+.fonts-ratings .fonts {
     display: flex;
-    margin-left: 24px;
-    justify-content: space-evenly;
-    margin-left: 24px;
-    margin-right: 24px;
-    margin-top: 15px;
-    padding: 35px 35px 35px;
+    flex-direction: row;
+    margin-right: 2px;
+    align-items: center;
+    width: 122px;
+    height: 32px;
+}
+
+
+.checked {
+    color: goldenrod;
+
+}
+
+#move {
+    display: flex;
+    margin-left: 20px;
+    font-family: Inter;
+
+
 }
