@@ -203,7 +203,7 @@ nav a:hover {
     flex-direction: row;
     margin-left: 1px;
     align-items: baseline;
-    margin-top: -20px;
+    margin-top: -30px;
 
 }
 
@@ -295,7 +295,7 @@ nav a:hover {
 
 footer {
     color: white;
-    width: 1440px;
+    width: 99%;
     height: 180px;
     background: #0A0826;
     text-align: center;
