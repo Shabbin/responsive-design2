@@ -327,3 +327,49 @@ span {
     width: 32px;
     height: 32px;
 }
+
+/*---------------
+ Media Quaries 
+ ----------------*/
+
+@media only screen and (max-width:688px) {
+    /* .navigation {
+        width: 100%;
+        background-color: tomato;
+        display: flex;
+        flex-direction: row-reverse;
+    } */
+
+    .Box1 {
+
+        display: flex;
+        flex-direction: column-reverse;
+        width: 100%;
+        align-items: center;
+    }
+
+    .title {
+        text-align: center;
+    }
+
+    .divider {
+        width: 360px;
+        display: grid;
+        grid-template-columns: repeat(4, 2fr);
+        grid-gap: 25px;
+        margin-left: 5px;
+
+
+
+    }
+
+    .box2 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .featured-products {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}
