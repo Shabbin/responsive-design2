@@ -17,6 +17,7 @@ body {
 nav a:hover {
 
     color: rgba(224, 44, 109, 0.87);
+    padding: 5px 5px 5px;
 }
 
 .title {
@@ -168,6 +169,7 @@ nav a:hover {
 
 }
 
+
 .fonts-ratings .fonts {
     display: flex;
     flex-direction: row;
@@ -177,9 +179,11 @@ nav a:hover {
 
 }
 
-.fonts-ratings {
-    display: inline-block;
+.detail1 {
+    color: var(--gray-50, #787885);
 }
+
+
 
 
 
