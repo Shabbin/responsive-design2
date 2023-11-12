@@ -150,6 +150,8 @@ nav a:hover {
     margin-left: 24px;
     align-items: center;
     background: #FFF;
+
+
 }
 
 
@@ -174,18 +176,25 @@ nav a:hover {
 
 .intro-price {
     font-family: Poppins;
-    font-size: 28px;
-
+    font-size: 20px;
     font-weight: 500;
+    display: inline-block;
+    margin-top: -20px;
+
 
 }
 
-#price {
+.detail1 p {
+    margin-top: -10px;
+}
 
+
+#price {
+    display: block;
     font-family: Inter;
     font-size: 24px;
     font-weight: 400;
-
+    margin-top: -12px;
 }
 
 
@@ -194,9 +203,10 @@ nav a:hover {
     flex-direction: row;
     margin-left: 1px;
     align-items: baseline;
-
+    margin-top: -20px;
 
 }
+
 
 .detail1 {
     color: var(--gray-50, #787885);
